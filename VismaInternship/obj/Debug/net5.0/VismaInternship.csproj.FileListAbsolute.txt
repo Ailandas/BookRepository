@@ -9,7 +9,6 @@ D:\Jobs\Visma\VismaInternship\bin\Debug\net5.0\CommandDotNet.dll
 D:\Jobs\Visma\VismaInternship\bin\Debug\net5.0\ConsoleTables.dll
 D:\Jobs\Visma\VismaInternship\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\Jobs\Visma\VismaInternship\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\Jobs\Visma\VismaInternship\obj\Debug\net5.0\VismaInternship.csprojAssemblyReference.cache
 D:\Jobs\Visma\VismaInternship\obj\Debug\net5.0\VismaInternship.GeneratedMSBuildEditorConfig.editorconfig
 D:\Jobs\Visma\VismaInternship\obj\Debug\net5.0\VismaInternship.AssemblyInfoInputs.cache
 D:\Jobs\Visma\VismaInternship\obj\Debug\net5.0\VismaInternship.AssemblyInfo.cs

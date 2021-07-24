@@ -25,6 +25,7 @@ namespace VismaInternship
         }
         public void List(string filter, string filterValue)
         {
+            
             List<Models.Book> books = new List<Models.Book>();
             bool response = Repository.Database.ReadBooks(ref books);
             if (response == false) { return; }

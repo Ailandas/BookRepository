@@ -43,19 +43,25 @@ namespace VismaInternship.Repository
         }
         public static bool ReadBooks(ref List<Models.Book> books)
         {
-            try
+            if (File.Exists(databasePath))
             {
                 using (StreamReader r = new StreamReader(databasePath))
                 {
                     string json = r.ReadToEnd();
                     books = JsonConvert.DeserializeObject<List<Models.Book>>(json);
+                    if(books == null) { books = new List<Models.Book>(); }
                 }
-                return true;
-
-            }catch(Exception exc)
-            {
-                return false;
+                
             }
+            else
+            {
+                var databaseFile = File.Create(databasePath);
+                databaseFile.Close();
+
+            }
+            return true;
+
+           
         }
 
         public static bool Borrow(int bookId,string fullname, DateTime returnDate)
