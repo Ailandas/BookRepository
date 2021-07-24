@@ -1,0 +1,46 @@
+[
+  {
+    "ID": 1,
+    "name": "Balta drobulė",
+    "author": "Antanas Škėma",
+    "category": "Psichologinė fantastika",
+    "language": "Lietuvių",
+    "publicationDate": "1958-01-01T00:00:00",
+    "isbn": "9781908251848",
+    "borrowedBy": null,
+    "borrowedTill": null
+  },
+  {
+    "ID": 2,
+    "name": "Dievų miškas",
+    "author": "Balys Sruoga",
+    "category": "Biografija",
+    "language": "Lietuvių",
+    "publicationDate": "1957-01-01T00:00:00",
+    "isbn": "9786094840531",
+    "borrowedBy": null,
+    "borrowedTill": null
+  },
+  {
+    "ID": 3,
+    "name": "Hobitas",
+    "author": "J.R.R Tolkien",
+    "category": "Fantastika",
+    "language": "Anglų",
+    "publicationDate": "1937-09-21T00:00:00",
+    "isbn": "9780044403371",
+    "borrowedBy": null,
+    "borrowedTill": null
+  },
+  {
+    "ID": 4,
+    "name": "Žiedų valdovas",
+    "author": "J.R.R Tolkien",
+    "category": "Fantastika",
+    "language": "Anglų",
+    "publicationDate": "1954-07-29T00:00:00",
+    "isbn": "9780007141326",
+    "borrowedBy": null,
+    "borrowedTill": null
+  }
+]
